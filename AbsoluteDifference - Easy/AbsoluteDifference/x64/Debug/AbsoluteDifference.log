@@ -1,2 +1,3 @@
 ﻿  AbsoluteDifference.cpp
-  AbsoluteDifference.vcxproj -> C:\Users\johan\Documents\VSProjects\AssigmentsCpp\AbsoluteDifference - Easy\x64\Debug\AbsoluteDifference.exe
+D:\visual\AssigmentsCpp\AbsoluteDifference - Easy\AbsoluteDifference\AbsoluteDifference.cpp(14,10): warning C4101: 'isInt': unreferenced local variable
+  AbsoluteDifference.vcxproj -> D:\visual\AssigmentsCpp\AbsoluteDifference - Easy\x64\Debug\AbsoluteDifference.exe
