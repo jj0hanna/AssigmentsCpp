@@ -17,9 +17,9 @@ int main()
 	cin >> input;
 	
 	cout << "The last digit in that number is: " << ReturnLastDigit (abs(input)) << endl;
-	cout << "All the digets reversed is: "; PrintNumberReversed(abs(input));
+	cout << "All the digits reversed is: "; PrintNumberReversed(abs(input));
 	cout << endl;
-	cout << "All the digets is: "; PrintAllNumbers(abs(input));
+	cout << "All the digits is: "; PrintAllNumbers(abs(input));
 	cout << endl;
 }
 int ReturnLastDigit(int input)
@@ -44,7 +44,7 @@ void PrintNumberReversed(int input)
 	int digit = 0;
 	while (input > 0)
 	{ 
-		digit *= 10;
+		//digit *= 10;
 		digit = input % 10;
 		input /= 10;
 		cout << digit << " ";
