@@ -24,27 +24,28 @@ bool lookForWord()
     string lookForTheword = "hej";
     string input;
     getline(cin, input);
+    int j = 0;
 
     for (int i = 0; i < input.size(); i++)
     {
         if (input[i] == lookForTheword[0])
         {
-            for (int j = 1; j < lookForTheword.size(); j++)
+            for (j = 0; j < lookForTheword.size(); j++)
             {
-                if (input[i+j] != lookForTheword[j])
+                if (input[i + j] != lookForTheword[j])
                 {
-                    i += j;
+                    i += j - 1;
                     break;
                 }
-                else if(lookForTheword.size()-1 == j)
+                else if (lookForTheword.size() - 1 == j)
                 {
                     return true;
                 }
             }
         }
+        
     }
     
-
    
   // if (strstr(input.c_str(), lookForTheword.c_str())) // am i okey to use this or does this count as a build in func?
   // {
