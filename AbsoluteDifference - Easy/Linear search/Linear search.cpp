@@ -64,7 +64,7 @@ vector<int> searchForAllNumbers(int numbers[], int input)
 
 
 
-//int*& searchForAllNumber(int numbers[])
+//int*& searchForAllNumber(int numbers[]) // not working
 //{
 //    int input;
 //    int size = 0;
