@@ -106,7 +106,7 @@ bool checkIfContainsNumber(int number1, int number2)
 
 
 
-int getNumber(bool (*func)(int)) // lamda?
+int getNumber(bool (*func)(int)) 
 {
     int num;
     while (1)
