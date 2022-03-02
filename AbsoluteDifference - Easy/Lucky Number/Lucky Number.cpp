@@ -26,7 +26,7 @@ bool luckeyNumber()
     string inputStr = to_string(number);
 
 
-    for (int i = 0; i < inputStr.size(); i++) //4569
+    for (int i = 0; i < inputStr.size(); i++)
     {
         for (int j = i+1; j < inputStr.size(); j++)
         {
