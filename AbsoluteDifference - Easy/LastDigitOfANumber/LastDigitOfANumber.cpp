@@ -44,7 +44,6 @@ void PrintNumberReversed(int input)
 	int digit = 0;
 	while (input > 0)
 	{ 
-		//digit *= 10;
 		digit = input % 10;
 		input /= 10;
 		cout << digit << " ";
