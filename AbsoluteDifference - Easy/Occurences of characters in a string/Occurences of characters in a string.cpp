@@ -7,59 +7,29 @@
 
 using namespace std;
 
-//void occurencesOfCharacters();
-//void printarray(char arg[], int length);
-//
 int main()
 {
     cout << "-- Write a line of text --" << endl;
     string input = "hallo";
-    int count = 0;
     map<char, int>m;
 
-    // for (int i = 0; i < input.size(); i++) // hello
-    // {
-    //     m.insert({ input[i], count++ });
-    // }
-    // 
-
-    for (int i = 0; i < input.size(); i++) //hello
+    for (char letter: input)
     {
-        m.insert({ input[i], count });
-        for (int j = i + 1; j < input.size(); j++)
+        auto it = m.find(letter); 
+        if (it != m.end()) // if i go though the list but dont get to the end that means that i found the letter again, increase the seacond in that pair l:1++ = l:2
         {
-          
-           // if (input[i] == input[j])
-           // {
-           //    m.at(input[i]) = count++;
-           // }
+            it->second++;
+        }
+        else
+        {
+            m.insert({ letter,1 }); 
         }
     }
-    for (auto const& pair : m) 
+    for (auto const& pair : m)
     {
         cout << "{" << pair.first << ": " << pair.second << "}\n";
     }
     return 0;
 }
 
-
-
-
-//void occurencesOfCharacters()
-//{
-//    
-//    string strInput;
-//    cin >> strInput;
-//    int count = 0;
-//    
-//    
-//    
-//    cout << count;
-//}
-//void printarray(char arg[], int length) 
-//{
-//    for (int n = 0; n < length; ++n)
-//        cout << arg[n] << ' ';
-//    cout << '\n';
-//}
 
