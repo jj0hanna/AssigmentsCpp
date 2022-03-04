@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -45,9 +44,8 @@ bool lookForWord()
         }
         
     }
-    
    
-  // if (strstr(input.c_str(), lookForTheword.c_str())) // am i okey to use this or does this count as a build in func?
+  // if (strstr(input.c_str(), lookForTheword.c_str())) // Not okey to use this i guess
   // {
   //     return true;
   // }

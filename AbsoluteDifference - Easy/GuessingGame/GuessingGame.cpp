@@ -60,7 +60,7 @@ void theGame()
 		} while (input != theCorrectNumber);
 		cout << "You found the correct number and it took you " << guesses << " tries!" << endl;
 	}
-	cout << "Press Enter to continue to the menu" << endl; // fix press enter
+	
 }
 
 

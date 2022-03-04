@@ -19,7 +19,7 @@ int main()
 		cout << "You entered an odd number";
 	}
 	return 0;
-	//EvenOrOdd(input);
+	
 }
 void EvenOrOdd(int input)
 {

@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -59,41 +58,3 @@ vector<int> searchForAllNumbers(int numbers[], int input)
     }
     return indexArr;
 }
-
-
-
-
-
-//int*& searchForAllNumber(int numbers[]) // not working
-//{
-//    int input;
-//    int size = 0;
-//    
-//
-//    cout << "what number do you want to search for?" << endl; 
-//    cin >> input;
-//
-//   for (int i = 0; i < 5; i++)
-//   {
-//       if (input == *&numbers[i])
-//       {
-//           size++;
-//          //cout << numbers[i] <<" exists in the list and it has index " << i;
-//       }
-//   }
-//   cout << size;
-//   return numbers;
-//   
-   // if (cin.good())
-   // {
-   //     cout << input << " does not exists in the list";
-   // }
-   // else
-   // {
-   //     cout << "That does not exist in the list, it is an unvalid input";
-   // }
-   //return -1;
-//}
- 
-
-
