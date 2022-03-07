@@ -16,11 +16,11 @@ int main()
     for (int i : indexes)
         cout << input <<" = " << "index " << i << endl;
 
-    int index = searchForNumber(numbers, input);
-    if (cin.good())
-    {
-        cout << input << " = " << "index " << index;
-    }
+   // int index = searchForNumber(numbers, input);
+   // if (cin.good())
+   // {
+   //     cout << input << " = " << "index " << index;
+   // }
 }
 int searchForNumber(int numbers[], int input)
 {
