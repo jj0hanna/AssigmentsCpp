@@ -1,2 +1,3 @@
 ﻿  GuessingGame.cpp
-  GuessingGame.vcxproj -> D:\visual\AssigmentsCpp\AbsoluteDifference - Easy\x64\Debug\GuessingGame.exe
+C:\Users\JohannaJohansson\Documents\VSProjects\AssigmentsCpp\AbsoluteDifference - Easy\GuessingGame\GuessingGame.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GuessingGame.vcxproj -> C:\Users\JohannaJohansson\Documents\VSProjects\AssigmentsCpp\AbsoluteDifference - Easy\x64\Debug\GuessingGame.exe

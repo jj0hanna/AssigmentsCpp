@@ -1,4 +1,7 @@
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <stdlib.h>
 using namespace std;
 
 void theGame();
@@ -29,7 +32,9 @@ int main()
 }
 void theGame()
 {
-	int theCorrectNumber = rand() % 20 + 1;
+	srand(time(NULL));
+
+	int theCorrectNumber = (rand() % 20) + 1;
 	int guesses = 1;
 	int input;
 	cout << "   What number between 1-20 am i thinking of?" << endl;
